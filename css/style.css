@@ -1,9 +1,9 @@
 /************************************/
 /************** COLOR ***************/
 :root {
-    --primary-col: #0084fd;
-    --primary-col-light: #b5ddff;
-    --secondary-col: #9792e4;
+    --primary-col: #adff2f;
+    /* --primary-col-light: #b5ddff; */
+    --secondary-col: #141922;
 }
 
 .bg-white {
@@ -27,12 +27,12 @@
     color: var(--primary-col);
 }
 
-.bg-primary-light {
+/* .bg-primary-light {
     background-color: var(--primary-col-light);
 }
 .fg-primary-light {
     color: var(--primary-col-light);
-}
+} */
 
 .bg-secondary {
     background-color: var(--secondary-col);
@@ -43,7 +43,7 @@
 
 
 /**************************/
-/****** MOBILE FIRST ******/
+/****** XS - MOBILE FIRST ******/
 
 /* GENERIC UI */
 
@@ -55,8 +55,20 @@
 
 
 /********************************/
-/****** RESPONSIVE: TABLET ******/
-@media screen and (min-width: 768px) {
+/****** SM - RESPONSIVE: TABLET ******/
+@media screen and (min-width: 480px) and (max-width: 767px) {
+
+    /* GENERIC UI */
+
+    /* HEADER */
+
+    /* MAIN CONTENT */
+
+}
+
+/********************************/
+/****** MD - RESPONSIVE: TABLET ******/
+@media screen and (min-width: 768px) and (max-width: 992px) {
 
     /* GENERIC UI */
 
@@ -67,7 +79,7 @@
 }
 
 /*********************************/
-/****** RESPONSIVE: DESKTOP ******/
+/****** LG - RESPONSIVE: DESKTOP ******/
 @media screen and (min-width: 992px) {
 
     /* GENERIC UI */
@@ -80,7 +92,7 @@
 
 
 /***************************************/
-/****** RESPONSIVE: LARGE DESKTOP ******/
+/****** XL - RESPONSIVE: LARGE DESKTOP ******/
 @media screen and (min-width: 1201px) {
     
     /* GENERIC UI */
