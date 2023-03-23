@@ -1,0 +1,91 @@
+/************************************/
+/************** COLOR ***************/
+:root {
+    --primary-col: #0084fd;
+    --primary-col-light: #b5ddff;
+    --secondary-col: #9792e4;
+}
+
+.bg-white {
+    background-color: white;
+}
+.fg-white {
+    color: white;
+}
+
+.bg-black {
+    background-color: black;
+}
+.fg-black {
+    color: black;
+}
+
+.bg-primary {
+    background-color: var(--primary-col);
+}
+.fg-primary {
+    color: var(--primary-col);
+}
+
+.bg-primary-light {
+    background-color: var(--primary-col-light);
+}
+.fg-primary-light {
+    color: var(--primary-col-light);
+}
+
+.bg-secondary {
+    background-color: var(--secondary-col);
+}
+.fg-secondary {
+    color: var(--secondary-col);
+}
+
+
+/**************************/
+/****** MOBILE FIRST ******/
+
+/* GENERIC UI */
+
+
+/* HEADER */
+
+
+/* MAIN CONTENT */
+
+
+/********************************/
+/****** RESPONSIVE: TABLET ******/
+@media screen and (min-width: 768px) {
+
+    /* GENERIC UI */
+
+    /* HEADER */
+
+    /* MAIN CONTENT */
+
+}
+
+/*********************************/
+/****** RESPONSIVE: DESKTOP ******/
+@media screen and (min-width: 992px) {
+
+    /* GENERIC UI */
+
+    /* HEADER */
+
+    /* MAIN CONTENT */
+
+}
+
+
+/***************************************/
+/****** RESPONSIVE: LARGE DESKTOP ******/
+@media screen and (min-width: 1201px) {
+    
+    /* GENERIC UI */
+
+    /* HEADER */
+
+    /* MAIN CONTENT */
+}
